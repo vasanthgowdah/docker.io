@@ -1,3 +1,8 @@
 apt-get update
 apt-get upgrade -y
 apt install docker.io -y
+docker pull htppd = httpd image name
+docker rm httpd
+docker images
+docker rmi httpd
+docker stop 
